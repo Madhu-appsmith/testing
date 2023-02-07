@@ -281,9 +281,9 @@
               "verticalAlignment": "CENTER"
             },
             {
-              "newButtonColor": "#457AE6",
+              "newButtonColor": "#03b365",
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "resetButtonEnable": false,
+              "resetButtonEnable": true,
               "isCanvas": false,
               "iconSVG": "/formbuilderui/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
               "editedRowIndices": [],
@@ -400,7 +400,8 @@
                 "height",
                 "col",
                 "dob",
-                "customColumn1"
+                "customColumn1",
+                "customColumn2"
               ],
               "editedRows": [],
               "displayName": "Tabulator",
@@ -411,7 +412,7 @@
               "saveButtonEnable": true,
               "parentColumnSpace": 9.953125,
               "dynamicTriggerPathList": [],
-              "resetButtonColor": "#B0BFCB",
+              "resetButtonColor": "#03b365",
               "primaryColumns": {
                 "name": {
                   "index": 0,
@@ -580,6 +581,22 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "textSize": "PARAGRAPH"
+                },
+                "customColumn2": {
+                  "index": 7,
+                  "width": 150,
+                  "id": "customColumn2",
+                  "columnType": "text",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "customColumn2",
+                  "computedValue": "",
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF"
                 }
               },
               "saveButton": "Save",
@@ -598,6 +615,22 @@
                   "isCellVisible": true,
                   "isDerived": true,
                   "label": "customColumn1",
+                  "computedValue": "",
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF"
+                },
+                "customColumn2": {
+                  "index": 7,
+                  "width": 150,
+                  "id": "customColumn2",
+                  "columnType": "text",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "customColumn2",
                   "computedValue": "",
                   "buttonStyle": "rgb(3, 179, 101)",
                   "labelColor": "#FFFFFF"
