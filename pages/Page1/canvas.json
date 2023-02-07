@@ -281,8 +281,9 @@
               "verticalAlignment": "CENTER"
             },
             {
-              "newButtonColor": "#457AE6",
+              "newButtonColor": "#03b365",
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "resetButtonEnable": true,
               "isCanvas": false,
               "iconSVG": "/formbuilderui/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
               "editedRowIndices": [],
@@ -391,6 +392,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "editedRowsData": [],
               "widgetName": "Tabulator1",
+              "newButtonEnable": true,
               "columnOrder": [
                 "name",
                 "age",
@@ -400,19 +402,21 @@
                 "dob",
                 "customColumn1"
               ],
+              "dynamicPropertyPathList": [],
               "editedRows": [],
               "displayName": "Tabulator",
               "bottomRow": 91,
               "parentRowSpace": 10,
               "groupBy": "",
               "hideCard": false,
+              "saveButtonEnable": true,
               "parentColumnSpace": 9.953125,
               "dynamicTriggerPathList": [],
-              "resetButtonColor": "#B0BFCB",
+              "resetButtonColor": "#03b365",
               "primaryColumns": {
                 "name": {
                   "index": 0,
-                  "width": 350,
+                  "width": 150,
                   "id": "name",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
@@ -428,10 +432,14 @@
                   "title": "name",
                   "headerFilter": true,
                   "sorter": "string",
-                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}"
+                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}",
+                  "tooltip": true,
+                  "headerTooltip": true,
+                  "textColor": "",
+                  "dateFormat": ""
                 },
                 "age": {
-                  "index": 1,
+                  "index": 0,
                   "width": 150,
                   "id": "age",
                   "horizontalAlignment": "LEFT",
@@ -448,10 +456,14 @@
                   "title": "age",
                   "headerFilter": true,
                   "sorter": "string",
-                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.age))}}"
+                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.age))}}",
+                  "tooltip": true,
+                  "headerTooltip": true,
+                  "textColor": "",
+                  "dateFormat": ""
                 },
                 "gender": {
-                  "index": 2,
+                  "index": 0,
                   "width": 150,
                   "id": "gender",
                   "horizontalAlignment": "LEFT",
@@ -468,10 +480,14 @@
                   "title": "gender",
                   "headerFilter": true,
                   "sorter": "string",
-                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.gender))}}"
+                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.gender))}}",
+                  "tooltip": true,
+                  "headerTooltip": true,
+                  "textColor": "",
+                  "dateFormat": ""
                 },
                 "height": {
-                  "index": 3,
+                  "index": 0,
                   "width": 150,
                   "id": "height",
                   "horizontalAlignment": "LEFT",
@@ -488,10 +504,14 @@
                   "title": "height",
                   "headerFilter": true,
                   "sorter": "string",
-                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.height))}}"
+                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.height))}}",
+                  "tooltip": true,
+                  "headerTooltip": true,
+                  "textColor": "",
+                  "dateFormat": ""
                 },
                 "col": {
-                  "index": 4,
+                  "index": 0,
                   "width": 150,
                   "id": "col",
                   "horizontalAlignment": "LEFT",
@@ -508,10 +528,14 @@
                   "title": "col",
                   "headerFilter": true,
                   "sorter": "string",
-                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.col))}}"
+                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.col))}}",
+                  "tooltip": true,
+                  "headerTooltip": true,
+                  "textColor": "",
+                  "dateFormat": ""
                 },
                 "dob": {
-                  "index": 5,
+                  "index": 0,
                   "width": 150,
                   "id": "dob",
                   "horizontalAlignment": "LEFT",
@@ -528,10 +552,14 @@
                   "title": "dob",
                   "headerFilter": true,
                   "sorter": "string",
-                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.dob))}}"
+                  "computedValue": "{{Tabulator1.sanitizedTableData.map((currentRow) => ( currentRow.dob))}}",
+                  "tooltip": true,
+                  "headerTooltip": true,
+                  "textColor": "",
+                  "dateFormat": ""
                 },
                 "customColumn1": {
-                  "index": 6,
+                  "index": 0,
                   "width": 150,
                   "id": "customColumn1",
                   "columnType": "text",
@@ -544,7 +572,15 @@
                   "label": "customColumn1",
                   "computedValue": "",
                   "buttonStyle": "rgb(3, 179, 101)",
-                  "labelColor": "#FFFFFF"
+                  "labelColor": "#FFFFFF",
+                  "title": "customColumn1",
+                  "field": "customColumn1",
+                  "headerFilter": true,
+                  "textColor": "",
+                  "dateFormat": "",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "textSize": "PARAGRAPH"
                 }
               },
               "saveButton": "Save",
