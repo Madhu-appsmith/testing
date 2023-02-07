@@ -283,7 +283,7 @@
             {
               "newButtonColor": "#457AE6",
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "resetButtonEnable": false,
+              "resetButtonEnable": true,
               "isCanvas": false,
               "iconSVG": "/formbuilderui/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
               "editedRowIndices": [],
@@ -586,7 +586,7 @@
                   "index": 0,
                   "width": 150,
                   "id": "customColumn2",
-                  "columnType": "select",
+                  "columnType": "text",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
