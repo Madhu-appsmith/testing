@@ -544,7 +544,7 @@
                   "textSize": "PARAGRAPH",
                   "enableFilter": true,
                   "enableSort": true,
-                  "isVisible": false,
+                  "isVisible": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "dob",
